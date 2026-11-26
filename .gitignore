@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+*.tmp.jpg
+__pycache__/
+.netlify
+

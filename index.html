@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Luneta · Teatro para y con infancias y juventudes</title>
+  <meta name="description" content="Biblioteca digital y plataforma de microlicencias de teatro para y con infancias y juventudes en México y América Latina." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Ir al catálogo</a>
+
+  <!-- Encabezado oficial La Luneta (solo símbolo a la izquierda, buscador centrado, Mi cuenta a la derecha) -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="#inicio" id="logo-home-link" class="brand-symbol-link" aria-label="La Luneta, inicio" title="La Luneta, inicio">
+        <img src="assets/logo-la-luneta.svg" alt="La Luneta" width="54" height="32" class="brand-symbol-img" />
+      </a>
+
+      <div class="search-shell" id="search-shell">
+        <form id="search-form" class="search-form" role="search" autocomplete="off">
+          <input
+            type="search"
+            id="search-input"
+            class="search-input"
+            placeholder="¿Qué quieres montar?"
+            aria-label="¿Qué quieres montar?"
+            aria-autocomplete="list"
+            aria-controls="search-suggestions"
+            aria-expanded="false"
+          />
+          <button type="button" id="search-clear-btn" class="search-clear-btn" aria-label="Borrar búsqueda" hidden>
+            <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+          <button type="submit" class="search-submit-btn" aria-label="Buscar obras">
+            <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="7.5"></circle>
+              <line x1="20" y1="20" x2="16.5" y2="16.5"></line>
+            </svg>
+          </button>
+        </form>
+        <div id="search-suggestions" class="search-suggestions" role="listbox" hidden></div>
+      </div>
+
+      <nav class="header-actions" aria-label="Cuenta">
+        <button type="button" id="btn-my-account" class="account-link">
+          <span>Mi cuenta</span>
+          <span id="account-dot" class="account-dot" hidden></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenido principal (intercambiable por vista: Catálogo, Ficha de Obra, Lector Protegido, Mi Cuenta, Espacio Editorial) -->
+  <main id="main-content" tabindex="-1">
+    <!-- Vista 1: Portada / Resultados de búsqueda -->
+    <section id="view-catalog" class="view-section">
+      <div class="subbar">
+        <div class="subbar-inner">
+          <div class="quick-tabs" id="quick-tabs" role="tablist" aria-label="Accesos rápidos">
+            <button type="button" class="quick-tab is-active" data-tab="todas" role="tab" aria-selected="true">Todas</button>
+            <button type="button" class="quick-tab" data-tab="cortas" role="tab" aria-selected="false">Cortas</button>
+            <button type="button" class="quick-tab" data-tab="comicas" role="tab" aria-selected="false">Cómicas</button>
+            <button type="button" class="quick-tab" data-tab="pastorela" role="tab" aria-selected="false">Pastorelas</button>
+            <button type="button" class="quick-tab" data-tab="primaria" role="tab" aria-selected="false">Primaria</button>
+            <button type="button" class="quick-tab" data-tab="preparatoria" role="tab" aria-selected="false">Secundaria y Prepa</button>
+            <button type="button" class="quick-tab" data-tab="fase_beta" role="tab" aria-selected="false">Muestras Fase Beta</button>
+          </div>
+          <button type="button" id="btn-open-filters" class="filters-trigger-btn" aria-haspopup="dialog" aria-controls="filter-drawer">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+              <line x1="4" y1="6" x2="20" y2="6"></line><circle cx="9" cy="6" r="2" fill="currentColor"></circle>
+              <line x1="4" y1="12" x2="20" y2="12"></line><circle cx="15" cy="12" r="2" fill="currentColor"></circle>
+              <line x1="4" y1="18" x2="20" y2="18"></line><circle cx="11" cy="18" r="2" fill="currentColor"></circle>
+            </svg>
+            <span>Filtros</span>
+            <span id="filter-count-badge" class="filter-count-badge" hidden>0</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="catalog-container">
+        <div id="active-filters-bar" class="active-filters-bar" hidden></div>
+        <div class="catalog-meta-row">
+          <p id="catalog-summary" class="catalog-summary"></p>
+        </div>
+        <div id="catalog-grid" class="catalog-grid" aria-live="polite"></div>
+        <div id="catalog-empty" class="empty-state" hidden>
+          <h3>No encontramos obras con esa combinación</h3>
+          <p>Prueba quitando algún filtro o escribe otro tema (por ejemplo: <strong>pastorela</strong>, <strong>títeres</strong> o <strong>comedia</strong>).</p>
+          <button type="button" id="btn-reset-empty" class="btn-primary">Ver todas las obras</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vista 2: Ficha de Representación (estilo editorial Concord + claridad YouthPLAYS) -->
+    <section id="view-detail" class="view-section" hidden></section>
+
+    <!-- Vista 3: Lector Web Protegido y Accesible ($0 sin registro) -->
+    <section id="view-reader" class="view-section" hidden></section>
+
+    <!-- Vista 4: Mi cuenta (Favoritas, Descargas, Cotizaciones, Facturas y acceso al Espacio Editorial) -->
+    <section id="view-account" class="view-section" hidden></section>
+
+    <!-- Vista 5: Espacio Privado de Administración Editorial -->
+    <section id="view-admin" class="view-section" hidden></section>
+  </main>
+
+  <!-- Pie discreto de La Luneta -->
+  <footer class="site-footer" id="site-footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <img src="assets/logo-la-luneta.svg" alt="La Luneta" width="38" height="22" />
+        <p><strong>La Luneta</strong> · Prototipo Fase Beta · Acervo en Dominio Público (LFDA México Art. 29) y muestras interactivas de rescate y microlicencias.</p>
+      </div>
+      <div class="footer-links">
+        <button type="button" class="link-btn" id="footer-btn-playwright">¿Eres dramaturga o dramaturgo? (Fase Beta)</button>
+        <button type="button" class="link-btn" id="footer-btn-admin">Espacio editorial</button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Pestaña lateral fija de Retroalimentación (inspirada en Concord Theatricals) -->
+  <button type="button" id="floating-feedback-tab" class="floating-feedback-tab" aria-label="Enviar retroalimentación sobre La Luneta">
+    Retroalimentación
+  </button>
+
+  <!-- Panel lateral derecho de Filtros (estilo mockup 4 · Filtros + Opción A avanzada) -->
+  <div id="filter-backdrop" class="drawer-backdrop" hidden></div>
+  <aside id="filter-drawer" class="filter-drawer" role="dialog" aria-modal="true" aria-labelledby="filter-drawer-title" hidden>
+    <div class="drawer-header">
+      <h2 id="filter-drawer-title">Filtros</h2>
+      <button type="button" id="btn-close-filters" class="icon-close-btn" aria-label="Cerrar filtros">×</button>
+    </div>
+    <div class="drawer-body">
+      <!-- Bloque 1: Filtros esenciales (exactos al diseño de referencia) -->
+      <div class="filter-group">
+        <label for="f-cast">Intérpretes (cantidad que tienes)</label>
+        <select id="f-cast" class="form-select">
+          <option value="">Cualquier reparto</option>
+          <option value="2">2 intérpretes</option>
+          <option value="4">4 intérpretes</option>
+          <option value="6">6 intérpretes</option>
+          <option value="8">8 intérpretes</option>
+          <option value="9">9 intérpretes</option>
+          <option value="10">10 intérpretes</option>
+          <option value="12">12 intérpretes</option>
+          <option value="15">15+ intérpretes</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="f-duration">Duración máxima</label>
+        <select id="f-duration" class="form-select">
+          <option value="">Cualquier duración</option>
+          <option value="15">Hasta 15 min</option>
+          <option value="20">Hasta 20 min</option>
+          <option value="30">Hasta 30 min</option>
+          <option value="45">Hasta 45 min</option>
+          <option value="60">Hasta 60 min</option>
+          <option value="90">Hasta 90 min</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="f-sort">Ordenar por</label>
+        <div class="sort-options" id="f-sort-list" role="radiogroup" aria-label="Ordenar por">
+          <button type="button" class="sort-option is-selected" data-sort="relevancia" role="radio" aria-checked="true">
+            <span>Relevancia</span><span class="sort-check">✓</span>
+          </button>
+          <button type="button" class="sort-option" data-sort="popularidad" role="radio" aria-checked="false">
+            <span>Popularidad</span><span class="sort-check">✓</span>
+          </button>
+          <button type="button" class="sort-option" data-sort="duracion" role="radio" aria-checked="false">
+            <span>Más cortas primero</span><span class="sort-check">✓</span>
+          </button>
+        </div>
+      </div>
+
+      <hr class="drawer-divider" />
+      <p class="drawer-section-label">Ficha de representación</p>
+
+      <div class="filter-group">
+        <label for="f-age">Edad recomendada</label>
+        <select id="f-age" class="form-select">
+          <option value="">Todas las edades</option>
+          <option value="5-10">Infancias (5 a 10 años)</option>
+          <option value="8-12">Primaria (8 a 12 años)</option>
+          <option value="12-15">Secundaria (12 a 15 años)</option>
+          <option value="14-18">Preparatoria / PrepaTec (14 a 18 años)</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="f-enfoque">¿Cómo la vas a montar?</label>
+        <select id="f-enfoque" class="form-select">
+          <option value="">Para y con infancias y juventudes</option>
+          <option value="con">Para montar con infancias o jóvenes</option>
+          <option value="para">Para presentar ante infancias o jóvenes</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="f-gender">Género del reparto</label>
+        <select id="f-gender" class="form-select">
+          <option value="">Cualquiera</option>
+          <option value="flexible">Reparto flexible / intercambiable</option>
+          <option value="femenino3">3 o más papeles femeninos</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="f-space">Espacio de montaje</label>
+        <select id="f-space" class="form-select">
+          <option value="">Cualquier espacio</option>
+          <option value="aula">Salón de clases / patio (sencillo)</option>
+          <option value="escenario">Escenario o auditorio escolar</option>
+          <option value="titeres">Títeres / guiñol / sombras</option>
+        </select>
+      </div>
+
+      <div class="filter-checks">
+        <label class="check-row">
+          <input type="checkbox" id="f-readable-only" />
+          <span>Solo con texto listo para leer hoy</span>
+        </label>
+        <label class="check-row">
+          <input type="checkbox" id="f-include-beta" checked />
+          <span>Incluir muestras Fase Beta (rescate y microlicencia)</span>
+        </label>
+        <label class="check-row">
+          <input type="checkbox" id="f-include-queue" />
+          <span>Incluir 59 obras DP en cola de digitalización</span>
+        </label>
+      </div>
+    </div>
+    <div class="drawer-footer">
+      <button type="button" id="btn-apply-filters" class="btn-primary btn-full">Ver resultados</button>
+      <button type="button" id="btn-clear-filters" class="btn-text-only">Limpiar</button>
+    </div>
+  </aside>
+
+  <!-- Diálogo nativo universal para Cotizador paso a paso, Compra/CoDi, Retroalimentación y Avisos -->
+  <dialog id="app-modal" class="app-modal" aria-modal="true">
+    <div id="app-modal-content" class="app-modal-inner"></div>
+  </dialog>
+
+  <!-- Notificación flotante amable -->
+  <div id="toast-region" class="toast-region" role="status" aria-live="polite"></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
