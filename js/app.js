@@ -975,6 +975,11 @@ function openReaderView(playId, initialRole = "") {
     notify("Esta obra histórica está protegida hasta 2064; no puede abrirse en el lector sin autorización.");
     return;
   }
+  const targetHash = `#leer/${play.id}`;
+  lastHandledHash = targetHash;
+  if (window.location.hash !== targetHash) {
+    window.location.hash = targetHash;
+  }
   const script = getScriptFor(play.id);
   showView("reader");
   renderProtectedReader(views.reader, {
@@ -1115,7 +1120,10 @@ function renderAccountView() {
 }
 
 function openAdminView() {
-  window.location.hash = "#editorial";
+  lastHandledHash = "#editorial";
+  if (window.location.hash !== "#editorial") {
+    window.location.hash = "#editorial";
+  }
   showView("admin");
   renderAdminPanel(views.admin, {
     plays: getAllPlays(),
@@ -1289,7 +1297,10 @@ function handleCreateAccount(userObj) {
   saveStore();
 }
 
+let lastHandledHash = "";
+
 function goCatalogAndRender() {
+  lastHandledHash = "#inicio";
   if (window.location.hash !== "#inicio" && window.location.hash !== "") {
     window.location.hash = "#inicio";
   }
@@ -1298,14 +1309,23 @@ function goCatalogAndRender() {
 }
 
 function navigateToPlay(playId) {
-  window.location.hash = `#obra/${playId}`;
+  const targetHash = `#obra/${playId}`;
+  lastHandledHash = targetHash;
+  if (window.location.hash !== targetHash) {
+    window.location.hash = targetHash;
+  }
   showView("detail");
   renderPlayDetail(playId);
 }
 
-function handleRoute() {
+function handleRoute(force = false) {
   const hash = window.location.hash || "#inicio";
-  if (hash.startsWith("#obra/")) {
+  if (!force && hash === lastHandledHash) return;
+  lastHandledHash = hash;
+  if (hash.startsWith("#leer/")) {
+    const id = hash.replace("#leer/", "");
+    openReaderView(id);
+  } else if (hash.startsWith("#obra/")) {
     const id = hash.replace("#obra/", "");
     showView("detail");
     renderPlayDetail(id);
@@ -1336,7 +1356,10 @@ document.getElementById("logo-home-link").addEventListener("click", (e) => {
   goCatalogAndRender();
 });
 document.getElementById("btn-my-account").addEventListener("click", () => {
-  window.location.hash = "#cuenta";
+  lastHandledHash = "#cuenta";
+  if (window.location.hash !== "#cuenta") {
+    window.location.hash = "#cuenta";
+  }
   showView("account");
   renderAccountView();
 });
@@ -1352,7 +1375,7 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Escape" && !filterDrawer.hidden) closeFilterDrawer();
 });
 
-window.addEventListener("hashchange", handleRoute);
+window.addEventListener("hashchange", () => handleRoute(false));
 
 function escapeHtml(str) {
   return String(str ?? "")
@@ -1365,4 +1388,4 @@ function escapeHtml(str) {
 // Arranque inicial
 trackYoutubeRef();
 updateAccountDot();
-handleRoute();
+handleRoute(true);
