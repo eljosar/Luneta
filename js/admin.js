@@ -303,7 +303,7 @@ export function renderAdminPanel(container, {
           enPortada: true,
           textoEstado: isProtected ? "protegido_solo_ficha" : (rawScript ? "completo_lector" : "digitalizacion"),
           etiquetaPublica: isProtected ? "Fase Beta · Ficha histórica (protegida)" : (rawScript ? "Lectura gratis hoy" : "Dominio público · En digitalización"),
-          cover: "assets/covers/dp-cola.svg",
+          cover: "assets/covers/dp-cola.jpg",
           premisa,
           sinopsis: premisa,
           duracionMin: dur,

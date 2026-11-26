@@ -86,6 +86,118 @@ a:hover { color: var(--guinda); }
 }
 .skip-link:focus { left: 12px; }
 
+/* ---------- Portada minimalista estilo Google ---------- */
+.home-google-view {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+}
+
+.home-topbar {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 18px 24px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.home-account-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--ink);
+  font-weight: 500;
+  font-size: 0.94rem;
+  padding: 8px 14px;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+}
+.home-account-link:hover {
+  background: var(--surface-soft);
+  color: var(--guinda);
+}
+
+.home-center {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 20px 92px;
+  gap: 26px;
+}
+
+.home-brand-lockup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.home-brand-symbol {
+  width: 84px;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: var(--shadow-sm);
+}
+
+.home-brand-wordmark {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: clamp(2.45rem, 5.5vw, 3.45rem);
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  color: var(--blue);
+  line-height: 1;
+}
+
+.home-search-shell {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+}
+
+.home-search-form {
+  padding: 5px 10px 5px 22px;
+  border: 1.5px solid var(--border-strong);
+  box-shadow: 0 4px 18px rgba(36, 35, 32, 0.08);
+}
+
+.home-search-input {
+  padding: 11px 8px 11px 0;
+  font-size: 1.05rem;
+}
+
+.home-actions-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 2px;
+}
+
+.home-pill-btn {
+  border: 1px solid var(--border-strong);
+  background: var(--surface-soft);
+  color: var(--ink);
+  padding: 10px 20px;
+  border-radius: var(--radius-sm);
+  font-size: 0.92rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+.home-pill-btn:hover {
+  border-color: var(--guinda);
+  background: var(--surface);
+  color: var(--guinda);
+}
+
 /* ---------- Encabezado oficial ---------- */
 .site-header {
   position: sticky;

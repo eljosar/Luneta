@@ -13,8 +13,8 @@
 <body>
   <a class="skip-link" href="#main-content">Ir al catálogo</a>
 
-  <!-- Encabezado oficial La Luneta (solo símbolo a la izquierda, buscador centrado, Mi cuenta a la derecha) -->
-  <header class="site-header" role="banner">
+  <!-- Encabezado de navegación (se oculta en la portada minimalista estilo Google y aparece en resultados, ficha y cuenta) -->
+  <header class="site-header" id="site-header" role="banner" hidden>
     <div class="header-inner">
       <a href="#inicio" id="logo-home-link" class="brand-symbol-link" aria-label="La Luneta, inicio" title="La Luneta, inicio">
         <img src="assets/logo-la-luneta.svg" alt="La Luneta" width="54" height="32" class="brand-symbol-img" />
@@ -26,8 +26,8 @@
             type="search"
             id="search-input"
             class="search-input"
-            placeholder="¿Qué quieres montar?"
-            aria-label="¿Qué quieres montar?"
+            placeholder="¿Qué quieres montar hoy?"
+            aria-label="¿Qué quieres montar hoy?"
             aria-autocomplete="list"
             aria-controls="search-suggestions"
             aria-expanded="false"
@@ -54,10 +54,57 @@
     </div>
   </header>
 
-  <!-- Contenido principal (intercambiable por vista: Catálogo, Ficha de Obra, Lector Protegido, Mi Cuenta, Espacio Editorial) -->
+  <!-- Contenido principal -->
   <main id="main-content" tabindex="-1">
-    <!-- Vista 1: Portada / Resultados de búsqueda -->
-    <section id="view-catalog" class="view-section">
+    <!-- Vista 0: Portada minimalista estilo Google (solo logo + La Luneta + buscador "¿Qué quieres montar hoy?") -->
+    <section id="view-home" class="view-section home-google-view">
+      <div class="home-topbar">
+        <button type="button" id="btn-home-account" class="home-account-link">
+          <span>Mi cuenta</span>
+          <span id="home-account-dot" class="account-dot" hidden></span>
+        </button>
+      </div>
+
+      <div class="home-center">
+        <div class="home-brand-lockup">
+          <img src="assets/logo-la-luneta.svg" alt="Símbolo de La Luneta" width="88" height="52" class="home-brand-symbol" />
+          <h1 class="home-brand-wordmark">La Luneta</h1>
+        </div>
+
+        <div class="home-search-shell">
+          <form id="home-search-form" class="search-form home-search-form" role="search" autocomplete="off">
+            <input
+              type="search"
+              id="home-search-input"
+              class="search-input home-search-input"
+              placeholder="¿Qué quieres montar hoy?"
+              aria-label="¿Qué quieres montar hoy?"
+              aria-autocomplete="list"
+              aria-controls="home-search-suggestions"
+              aria-expanded="false"
+            />
+            <button type="button" id="home-search-clear-btn" class="search-clear-btn" aria-label="Borrar búsqueda" hidden>
+              <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </button>
+            <button type="submit" class="search-submit-btn" aria-label="Buscar obras">
+              <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="7.5"></circle>
+                <line x1="20" y1="20" x2="16.5" y2="16.5"></line>
+              </svg>
+            </button>
+          </form>
+          <div id="home-search-suggestions" class="search-suggestions" role="listbox" hidden></div>
+        </div>
+
+        <div class="home-actions-row">
+          <button type="button" id="home-btn-search" class="home-pill-btn">Buscar obra</button>
+          <button type="button" id="home-btn-explore" class="home-pill-btn">Explorar catálogo</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vista 1: Resultados / Catálogo en cuadrícula -->
+    <section id="view-catalog" class="view-section" hidden>
       <div class="subbar">
         <div class="subbar-inner">
           <div class="quick-tabs" id="quick-tabs" role="tablist" aria-label="Accesos rápidos">

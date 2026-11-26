@@ -91,7 +91,8 @@ export const PLAYS_DATA = [
       "«Nos gustó inventar nuestras propias promesas»",
       "«Fácil de repartir en todo el salón»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Escenario del Teatro José Rosas Moreno (Lagos de Moreno, Jalisco) · Foto: Luis Alvaz (CC BY-SA 4.0, Wikimedia Commons)"
   },
   {
     "id": "TYA-002",
@@ -106,7 +107,7 @@ export const PLAYS_DATA = [
     "enPortada": true,
     "textoEstado": "digitalizacion",
     "etiquetaPublica": "Dominio público · En digitalización",
-    "cover": "assets/covers/tya-002.svg",
+    "cover": "assets/covers/tya-002.jpg",
     "premisa": "Escena cotidiana en prosa donde el humor doméstico abre conversación sobre quién cuida a quién en casa.",
     "sinopsis": "Comedia breve en prosa que retrata la vida cotidiana familiar y la importancia del cuidado mutuo, la empatía y la gratitud hacia madres, padres y cuidadores. Ideada por Rosas Moreno para representarse en escuelas primarias mexicanas.",
     "duracionMin": 20,
@@ -182,7 +183,8 @@ export const PLAYS_DATA = [
     "opinionesJovenes": [
       "«La reescribimos como nuestra casa y dio mucha risa»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Montaje infantil en Complejo Cultural Los Pinos · Semilleros Creativos, Secretaría de Cultura (CC BY 2.0, Wikimedia Commons)"
   },
   {
     "id": "TYA-003",
@@ -275,7 +277,8 @@ export const PLAYS_DATA = [
       "«En 15 minutos la armamos con el mapa del salón»",
       "«Muy chistosa y rápida»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Muestra de Teatro Infantil (Villahermosa, 2015) · Secretaría de Cultura CDMX (CC BY-SA 2.0, Wikimedia Commons)"
   },
   {
     "id": "TYA-004",
@@ -290,7 +293,7 @@ export const PLAYS_DATA = [
     "enPortada": true,
     "textoEstado": "digitalizacion",
     "etiquetaPublica": "Dominio público · En digitalización",
-    "cover": "assets/covers/tya-004.svg",
+    "cover": "assets/covers/tya-004.jpg",
     "premisa": "Comedia escolar de 1874 que hoy sirve como espejo crítico para debatir qué entendemos por justicia en la escuela.",
     "sinopsis": "Comedia infantil escolar sobre la honestidad, la solidaridad y el reconocimiento comunitario, paradigmática del teatro moralizante mexicano de fines del XIX y principios del XX.",
     "duracionMin": 20,
@@ -365,7 +368,8 @@ export const PLAYS_DATA = [
     "opinionesJovenes": [
       "«Nos hizo debatir si los premios siempre son justos»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Montaje juvenil de Semillero Creativo de Teatro (Chiapas) · Secretaría de Cultura (CC BY 2.0, Wikimedia Commons)"
   },
   {
     "id": "TYA-005",
@@ -458,7 +462,8 @@ export const PLAYS_DATA = [
       "«Bato y Gila discutiendo la cena es buenísima»",
       "«Funciona increíble en diciembre»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Montaje real de «La noche más venturosa» de Fernández de Lizardi (2011) · Compañía Nacional de Teatro Clásico (CC BY-SA 4.0, Wikimedia Commons)"
   },
   {
     "id": "TYA-006",
@@ -473,7 +478,7 @@ export const PLAYS_DATA = [
     "enPortada": true,
     "textoEstado": "digitalizacion",
     "etiquetaPublica": "Dominio público · En digitalización",
-    "cover": "assets/covers/tya-006.svg",
+    "cover": "assets/covers/tya-006.jpg",
     "premisa": "Diálogos breves e irreverentes donde personajes callejeros cuestionan rumores, poder y costumbres con humor afilado.",
     "sinopsis": "Selección de los célebres diálogos satíricos y políticos de Lizardi, adaptados con éxito por el Teatro Trashumante juvenil del INBA en 1965 y en el Teatro en Coapa para acercar el pensamiento crítico y el humor ilustrado a adolescentes.",
     "duracionMin": 30,
@@ -549,7 +554,8 @@ export const PLAYS_DATA = [
     "opinionesJovenes": [
       "«Perfecta para armar equipos rápidos en secundaria»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Montaje de Teatro en Plazas Públicas (2015) · Secretaría de Cultura CDMX (CC BY-SA 2.0, Wikimedia Commons)"
   },
   {
     "id": "TYA-007",
@@ -641,7 +647,8 @@ export const PLAYS_DATA = [
       "«Muchos protagónicos para chavas, ¡por fin!»",
       "«Nos hizo debatir sobre redes y apariencias»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Puesta en escena en Teatro Morelos (Muestra Estatal de Teatro 2022) · Foto: Luis Alvaz (CC BY-SA 4.0, Wikimedia Commons)"
   },
   {
     "id": "TYA-008",
@@ -732,7 +739,8 @@ export const PLAYS_DATA = [
       "«Bruno se roba las escenas desde la página uno»",
       "«Cero aburrida, parece serie de comedia»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Montaje teatral estudiantil en escena · Foto: Luis Alvaz (CC BY-SA 4.0, Wikimedia Commons)"
   },
   {
     "id": "TYA-009",
@@ -747,7 +755,7 @@ export const PLAYS_DATA = [
     "enPortada": true,
     "textoEstado": "completo_lector",
     "etiquetaPublica": "Lectura gratis hoy",
-    "cover": "assets/covers/tya-009.svg",
+    "cover": "assets/covers/tya-009.jpg",
     "premisa": "En la Nueva España, Violante enfrenta el encierro y una conspiración virreinal para salvar a Gil González de Ávila en una sola noche.",
     "sinopsis": "Drama histórico ambientado en la Nueva España sobre honor, conspiración y lealtad que en 1951 dio arranque oficial al movimiento de Teatro Estudiantil de secundaria y preparatoria en México. Rara vez montada hoy: rescate patrimonial de primer nivel.",
     "duracionMin": 50,
@@ -822,7 +830,8 @@ export const PLAYS_DATA = [
     "opinionesJovenes": [
       "«El verso suena súper intenso cuando se lee en voz alta»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Puesta en escena dramática en México (dir. Ana Castillo) · Foto: Wotancito (CC BY 4.0, Wikimedia Commons)"
   },
   {
     "id": "TYA-010",
@@ -912,7 +921,8 @@ export const PLAYS_DATA = [
     "opinionesJovenes": [
       "«Hicimos los trucos con cartón y linternas del cel»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Puesta en escena en el Teatro de la Ciudad Esperanza Iris · Secretaría de Cultura CDMX (CC BY 2.0, Wikimedia Commons)"
   },
   {
     "id": "TYA-011",
@@ -1002,7 +1012,8 @@ export const PLAYS_DATA = [
     "opinionesJovenes": [
       "«La idea de la subasta mágica nos voló la cabeza»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Ejemplar original «La almoneda del diablo» · Imprenta Antonio Vanegas Arroyo / Posada (Dominio Público, Library of Congress)"
   },
   {
     "id": "TYA-012",
@@ -1097,7 +1108,8 @@ export const PLAYS_DATA = [
       "«No nos trató como bebés, el final es loquísimo»",
       "«Lo montamos en 15 min con títeres de calcetín»"
     ],
-    "bloqueoMusicaRevueltas": true
+    "bloqueoMusicaRevueltas": true,
+    "fotoCredito": "Encuentro de Semilleros de Títeres (Tlaxcala) · Secretaría de Cultura de México (CC BY 2.0, Wikimedia Commons)"
   },
   {
     "id": "TYA-013",
@@ -1188,7 +1200,8 @@ export const PLAYS_DATA = [
     "opinionesJovenes": [
       "«Le pusimos los nombres de las calles de nuestra colonia»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Montaje real de «La Gran Vía» (Centro Cultural de la Villa) · Diario de Madrid (CC BY 4.0, Wikimedia Commons)"
   },
   {
     "id": "TYA-014",
@@ -1203,7 +1216,7 @@ export const PLAYS_DATA = [
     "enPortada": true,
     "textoEstado": "digitalizacion",
     "etiquetaPublica": "Dominio público · En digitalización",
-    "cover": "assets/covers/tya-014.svg",
+    "cover": "assets/covers/tya-014.jpg",
     "premisa": "Sainete porfiriano de títeres protagonizado por Don Folías, pieza patrimonial para analizar críticamente el humor popular de 1900.",
     "sinopsis": "Sainete popular de la Galería del Teatro Infantil protagonizado por Don Folías, arquetipo célebre del teatro de títeres mexicano del Porfiriato. Pieza documental valiosísima para comprender el humor popular y las representaciones sociales de inicios del siglo XX.",
     "duracionMin": 15,
@@ -1277,7 +1290,8 @@ export const PLAYS_DATA = [
     "opinionesJovenes": [
       "«Nos sirvió para hablar de historia sin filtros»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Cuadernillo original «Los celos del Negro con Don Folías» · Antonio Vanegas Arroyo / Posada (Dominio Público, Library of Congress)"
   },
   {
     "id": "TYA-015",
@@ -1292,7 +1306,7 @@ export const PLAYS_DATA = [
     "enPortada": true,
     "textoEstado": "digitalizacion",
     "etiquetaPublica": "Dominio público · En digitalización",
-    "cover": "assets/covers/tya-015.svg",
+    "cover": "assets/covers/tya-015.jpg",
     "premisa": "Enredos, oficios populares y humor vecinal en un patio de vecindad mexicano adaptable a cualquier tamaño de grupo.",
     "sinopsis": "Estampa humorística de la vida cotidiana en una vecindad mexicana de principios del siglo XX, con enredos vecinales, oficios urbanos y solidaridad comunitaria; tan vigente que fue montada por el grupo POLIART en 1941.",
     "duracionMin": 20,
@@ -1368,7 +1382,8 @@ export const PLAYS_DATA = [
     "opinionesJovenes": [
       "«Con cuatro sillas y un tendedero ya teníamos escenario»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Puesta en escena en el Museo de la Ciudad de México (2020) · Secretaría de Cultura CDMX (CC BY 2.0, Wikimedia Commons)"
   },
   {
     "id": "TYA-016",
@@ -1383,7 +1398,7 @@ export const PLAYS_DATA = [
     "enPortada": true,
     "textoEstado": "digitalizacion",
     "etiquetaPublica": "Dominio público · En digitalización",
-    "cover": "assets/covers/tya-016.svg",
+    "cover": "assets/covers/tya-016.jpg",
     "premisa": "Un alfiler encantado promete fortuna inmediata a cambio de dilemas cada vez más comprometedores en esta aventura fantástica mexicana.",
     "sinopsis": "Versión teatral popular en cuadernillo del célebre motivo mexicano del fistol encantado que promete fortuna y poder a cambio de dilemas morales; parte central del repertorio fantástico infantil y familiar de inicios del siglo XX.",
     "duracionMin": 30,
@@ -1456,7 +1471,8 @@ export const PLAYS_DATA = [
     "opinionesJovenes": [
       "«Lo comparamos con las apps que te piden todos tus datos»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Cuadernillo de la Galería del Teatro Infantil · Imprenta Antonio Vanegas Arroyo / Posada (Dominio Público, Library of Congress)"
   },
   {
     "id": "TYA-017",
@@ -1471,7 +1487,7 @@ export const PLAYS_DATA = [
     "enPortada": true,
     "textoEstado": "digitalizacion",
     "etiquetaPublica": "Dominio público · En digitalización",
-    "cover": "assets/covers/tya-017.svg",
+    "cover": "assets/covers/tya-017.jpg",
     "premisa": "Unos gendarmes despistados se enredan con sus propios silbatos y reglas en un sainete veloz de comedia física para aula o títeres.",
     "sinopsis": "Sainete cómico de la Galería del Teatro Infantil ilustrado por Posada donde unos gendarmes torpes y despistados se enredan al intentar mantener el orden en las calles, desplegando humor físico al estilo del teatro de carpa y títeres.",
     "duracionMin": 15,
@@ -1547,7 +1563,8 @@ export const PLAYS_DATA = [
     "opinionesJovenes": [
       "«Pura comedia física, ideal para soltar los nervios»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Cuadernillo original «Los gendarmes» · Imprenta Antonio Vanegas Arroyo / Posada (Dominio Público, Library of Congress)"
   },
   {
     "id": "TYA-018",
@@ -1636,7 +1653,8 @@ export const PLAYS_DATA = [
     "opinionesJovenes": [
       "«Eso de remendar la pierna del Comendador nos mató de risa»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Grabado original «Teatro Infantil de Don Juan Tenorio» · Antonio Vanegas Arroyo / Posada (CC0, Metropolitan Museum of Art)"
   },
   {
     "id": "TYA-019",
@@ -1651,7 +1669,7 @@ export const PLAYS_DATA = [
     "enPortada": true,
     "textoEstado": "digitalizacion",
     "etiquetaPublica": "Dominio público · En digitalización",
-    "cover": "assets/covers/tya-019.svg",
+    "cover": "assets/covers/tya-019.jpg",
     "premisa": "Un relato maravilloso en dos partes sobre encantamientos y pruebas de ingenio, ideal para que dos equipos del salón monten una parte cada uno.",
     "sinopsis": "Uno de los cuadernillos más célebres y fantásticos de la Galería del Teatro Infantil con grabados de Posada (conservados en el MUNAE-INBA): un relato maravilloso de encantamientos, pruebas de valentía y magia pensado para niños y títeres.",
     "duracionMin": 30,
@@ -1724,7 +1742,8 @@ export const PLAYS_DATA = [
     "opinionesJovenes": [
       "«Dividimos el salón en dos equipos y todos actuaron»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Cuadernillo original «La rosa encantada» · Imprenta Antonio Vanegas Arroyo / Posada (Dominio Público, Library of Congress)"
   },
   {
     "id": "TYA-020",
@@ -1739,7 +1758,7 @@ export const PLAYS_DATA = [
     "enPortada": true,
     "textoEstado": "digitalizacion",
     "etiquetaPublica": "Dominio público · En digitalización",
-    "cover": "assets/covers/tya-020.svg",
+    "cover": "assets/covers/tya-020.jpg",
     "premisa": "Una tripulación zarpa en busca de una isla fantasma que aparece y desaparece del horizonte en esta aventura marítima de cartón y telas.",
     "sinopsis": "Joya olvidada de aventuras marítimas inspirada en la leyenda de la mítica isla fantasma de San Balandrán, adaptada al ingenio popular mexicano en los cuadernillos de Vanegas Arroyo.",
     "duracionMin": 25,
@@ -1815,7 +1834,8 @@ export const PLAYS_DATA = [
     "opinionesJovenes": [
       "«Hicimos el mar con sábanas azules en el patio»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Montaje teatral en el Teatro de la Ciudad, Puebla · Foto: Luis Alvaz (CC BY-SA 4.0, Wikimedia Commons)"
   },
   {
     "id": "TYA-021",
@@ -1830,7 +1850,7 @@ export const PLAYS_DATA = [
     "enPortada": true,
     "textoEstado": "digitalizacion",
     "etiquetaPublica": "Dominio público · En digitalización",
-    "cover": "assets/covers/tya-021.svg",
+    "cover": "assets/covers/tya-021.jpg",
     "premisa": "Sainete festivo de plaza y cartonería tradicional que invita a reimaginar las fiestas populares y el respeto a los animales hoy.",
     "sinopsis": "Sainete popular de enredos amorosos y fiesta callejera publicado en la Galería del Teatro Infantil; conecta con la tradición mexicana del torito de cartonería y las funciones de títeres porfirianas.",
     "duracionMin": 20,
@@ -1903,7 +1923,8 @@ export const PLAYS_DATA = [
     "opinionesJovenes": [
       "«El debate sobre tradiciones y bienestar animal estuvo buenisimo»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Estampa popular teatral · Imprenta Antonio Vanegas Arroyo / José Guadalupe Posada (Dominio Público, Library of Congress)"
   },
   {
     "id": "TYA-022",
@@ -1918,7 +1939,7 @@ export const PLAYS_DATA = [
     "enPortada": true,
     "textoEstado": "digitalizacion",
     "etiquetaPublica": "Dominio público · En digitalización",
-    "cover": "assets/covers/tya-022.svg",
+    "cover": "assets/covers/tya-022.jpg",
     "premisa": "Un diablillo presumido queda atrapado en sus propias trampas en una farsa rapidísima ideal para pastorelas breves y títeres.",
     "sinopsis": "Farsa picaresca de la Galería del Teatro Infantil (NYPL Posada Vol. 13) donde un diablillo travieso queda atrapado por sus propias tretas frente al ingenio popular; puente perfecto entre la pastorela tradicional y el teatro guiñol mexicano.",
     "duracionMin": 15,
@@ -1996,7 +2017,8 @@ export const PLAYS_DATA = [
     "opinionesJovenes": [
       "«Cortita, picaresca y con cero sermones»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Cuadernillo original «La cola del diablo» · Imprenta Antonio Vanegas Arroyo / Posada (Dominio Público, Library of Congress)"
   },
   {
     "id": "TYA-023",
@@ -2011,7 +2033,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Entremés cómico escolar de enredos médicos",
     "sinopsis": "Entremés cómico escolar de enredos médicos. Pieza breve anónima con alto potencial lúdico en aula",
     "duracionMin": 25,
@@ -2077,7 +2099,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-024",
@@ -2092,7 +2115,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Entremés cómico popular para teatro infantil y títeres",
     "sinopsis": "Entremés cómico popular para teatro infantil y títeres. Cuadernillo ilustrado por Posada sin firma autoral individual",
     "duracionMin": 25,
@@ -2158,7 +2181,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-025",
@@ -2173,7 +2197,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Farsa cómica popular de sustos para niños y títeres",
     "sinopsis": "Farsa cómica popular de sustos para niños y títeres. Humor popular mexicano del cambio de siglo ideal para guiñol escolar",
     "duracionMin": 25,
@@ -2239,7 +2263,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-026",
@@ -2254,7 +2279,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Comedia moralizante y traviesa para niños y títeres",
     "sinopsis": "Comedia moralizante y traviesa para niños y títeres. Cuadernillo anónimo de la Galería del Teatro Infantil Vanegas Arroyo",
     "duracionMin": 25,
@@ -2320,7 +2345,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-027",
@@ -2335,7 +2361,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Juguete cómico breve para niños o títeres",
     "sinopsis": "Juguete cómico breve para niños o títeres. PROMOVIDA A NIVEL 0: cuadernillo anónimo verificado como ya digitalizado en NYPL Posada Vol. 13 (sin firma de C. S. Suárez; 100% DP).",
     "duracionMin": 25,
@@ -2401,7 +2427,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-028",
@@ -2416,7 +2443,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Adaptación infantil mexicana en verso para Día de Muertos",
     "sinopsis": "Adaptación infantil mexicana en verso para Día de Muertos. Joya de la tradición infantil mexicana de Día de Muertos ilustrada por Posada",
     "duracionMin": 25,
@@ -2482,7 +2509,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-029",
@@ -2497,7 +2525,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Pastorela-opereta navideña del repertorio escolar popular",
     "sinopsis": "Pastorela-opereta navideña del repertorio escolar popular. Obra distinta a la Pastorela en dos actos de Lizardi (TYA-005); hallazgo filológico que evita confusión histórica",
     "duracionMin": 25,
@@ -2563,7 +2591,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-030",
@@ -2578,7 +2607,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Drama histórico en verso en un acto sobre navegación y valor",
     "sinopsis": "Drama histórico en verso en un acto sobre navegación y valor. PDF original verificado y alojado en carpeta Día 1 del Drive; drama histórico breve en un acto",
     "duracionMin": 25,
@@ -2644,7 +2673,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-031",
@@ -2659,7 +2689,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Drama romántico histórico virreinal en verso",
     "sinopsis": "Drama romántico histórico virreinal en verso. Incluida dentro del Tomo I de Obras (1896) ya descargado en la carpeta Día 1 del Drive",
     "duracionMin": 25,
@@ -2725,7 +2755,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-032",
@@ -2740,7 +2771,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Drama caballeresco mexicano en verso",
     "sinopsis": "Drama caballeresco mexicano en verso. Texto completo ya disponible en el volumen digitalizado alojado en Drive",
     "duracionMin": 25,
@@ -2806,7 +2837,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-033",
@@ -2821,7 +2853,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Escena breve familiar y escolar en verso",
     "sinopsis": "Escena breve familiar y escolar en verso. Pieza breve idónea para lectura dramatizada en primeros grados de primaria",
     "duracionMin": 25,
@@ -2887,7 +2919,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-034",
@@ -2902,7 +2935,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Comedia escolar en verso sobre solidaridad y trabajo",
     "sinopsis": "Comedia escolar en verso sobre solidaridad y trabajo. Parte del corpus escolar de Rosas Moreno vigente en lecturas mexicanas de principios del siglo XX",
     "duracionMin": 25,
@@ -2968,7 +3001,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-035",
@@ -2983,7 +3017,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Escena cívica escolar sobre valor y retorno al hogar",
     "sinopsis": "Escena cívica escolar sobre valor y retorno al hogar. Texto cívico-escolar breve libre de derechos para efemérides escolares",
     "duracionMin": 25,
@@ -3049,7 +3083,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-036",
@@ -3064,7 +3099,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Drama biográfico escolar sobre el ingenio de Sor Juana",
     "sinopsis": "Drama biográfico escolar sobre el ingenio de Sor Juana. PDF original verificado y alojado en carpeta Día 1 del Drive; ideal para primaria alta y secundaria",
     "duracionMin": 25,
@@ -3130,7 +3165,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-037",
@@ -3145,7 +3181,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Comedia escolar juvenil de costumbres",
     "sinopsis": "Comedia escolar juvenil de costumbres. Comedia ligera escolar de uno de los fundadores del teatro infantil mexicano",
     "duracionMin": 25,
@@ -3211,7 +3247,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-038",
@@ -3226,7 +3263,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Diálogos escénicos familiares e infantiles en verso",
     "sinopsis": "Diálogos escénicos familiares e infantiles en verso. PDF original alojado en carpeta Día 1 del Drive; repertorio de recitación y escenificación escolar",
     "duracionMin": 25,
@@ -3292,7 +3329,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-039",
@@ -3307,7 +3345,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Diálogo poético-teatral para niñas y juego escénico",
     "sinopsis": "Diálogo poético-teatral para niñas y juego escénico. Miniatura teatral ideal para preescolar avanzado y primaria baja",
     "duracionMin": 25,
@@ -3373,7 +3411,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-040",
@@ -3388,7 +3427,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Monólogos cívicos e históricos para festivales escolares",
     "sinopsis": "Monólogos cívicos e históricos para festivales escolares. Muy usado en festivales cívicos de primaria y secundaria durante el primer cuarto del siglo XX",
     "duracionMin": 25,
@@ -3454,7 +3493,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-041",
@@ -3469,7 +3509,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Pieza dramática en un acto sobre Cervantes y el Quijote",
     "sinopsis": "Pieza dramática en un acto sobre Cervantes y el Quijote. Obra breve cervantina escrita en 1905 por Othón (†1906); perfecta para secundaria y bachillerato",
     "duracionMin": 25,
@@ -3535,7 +3575,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-042",
@@ -3550,7 +3591,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Drama histórico-juvenil de la Revolución Mexicana",
     "sinopsis": "Drama histórico-juvenil de la Revolución Mexicana. PDF 1916 alojado en Drive; Marcelino Dávalos (†1923) es 100% Dominio Público estricto en 2026",
     "duracionMin": 25,
@@ -3616,7 +3657,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-043",
@@ -3631,7 +3673,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Comedia dramática mexicana sobre vocación artística",
     "sinopsis": "Comedia dramática mexicana sobre vocación artística. Clásico teatral mexicano del Porfiriato tardío en Dominio Público estricto (†1923)",
     "duracionMin": 25,
@@ -3697,7 +3739,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-044",
@@ -3712,7 +3755,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Drama breve realista de inicio de siglo para jóvenes",
     "sinopsis": "Drama breve realista de inicio de siglo para jóvenes. Primera obra del siglo XX de Marcelino Dávalos (†1923); excelente para preparatoria",
     "duracionMin": 25,
@@ -3778,7 +3821,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-045",
@@ -3793,7 +3837,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Comedia clásica novohispana de ingenio y carácter",
     "sinopsis": "Comedia clásica novohispana de ingenio y carácter. Representada por jóvenes en el Tercer Centenario de Alarcón (dir. Rodolfo Usigli, 1939)",
     "duracionMin": 25,
@@ -3859,7 +3903,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-046",
@@ -3874,7 +3919,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Comedia clásica novohispana sobre honor y lealtad",
     "sinopsis": "Comedia clásica novohispana sobre honor y lealtad. Escenificada por jóvenes de la Escuela de Arte para Trabajadores núm. 1 (dir. Fernando Wagner, 1939)",
     "duracionMin": 25,
@@ -3940,7 +3985,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-047",
@@ -3955,7 +4001,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Comedia barroca de enredo, ingenio y autonomía femenina",
     "sinopsis": "Comedia barroca de enredo, ingenio y autonomía femenina. Clásico del Teatro Infantil y Escolar INBA (Novo 1951/1959; 127,423 escolares en 1979–1980)",
     "duracionMin": 25,
@@ -4021,7 +4067,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-048",
@@ -4036,7 +4083,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Coloquio dramático novohispano montado por preparatorianos",
     "sinopsis": "Coloquio dramático novohispano montado por preparatorianos. Joya colonial mexicana rescatada para jóvenes en el repertorio de Teatro en Coapa (ENP 5)",
     "duracionMin": 25,
@@ -4102,7 +4149,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-049",
@@ -4117,7 +4165,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Comedia moral sobre la mentira; clásico de secundaria",
     "sinopsis": "Comedia moral sobre la mentira; clásico de secundaria. Pilar del Teatro Escolar INBA: 242 funciones y 149,805 alumnos de secundaria entre 1977 y 1981",
     "duracionMin": 25,
@@ -4183,7 +4231,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-050",
@@ -4198,7 +4247,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Comedia clásica sobre maledicencia y cortesía",
     "sinopsis": "Comedia clásica sobre maledicencia y cortesía. Montada en el Teatro 5 de Diciembre para escuelas secundarias del INBA (1963)",
     "duracionMin": 25,
@@ -4264,7 +4313,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-051",
@@ -4279,7 +4329,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Comedia novohispana de enredo juvenil",
     "sinopsis": "Comedia novohispana de enredo juvenil. Inauguró el Teatro Julio Jiménez Rueda (1965) con jóvenes egresados de la EAT-INBA",
     "duracionMin": 25,
@@ -4345,7 +4395,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-052",
@@ -4360,7 +4411,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Comedia mitológica barroca (Teseo y el Minotauro)",
     "sinopsis": "Comedia mitológica barroca (Teseo y el Minotauro). Montada en Teatro en el Teatro del INBA para 10,373 alumnos de secundaria (1977–1982)",
     "duracionMin": 25,
@@ -4426,7 +4477,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-053",
@@ -4441,7 +4493,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Teatro musical y coral novohispano multilingüe",
     "sinopsis": "Teatro musical y coral novohispano multilingüe. Escenificación estudiantil preparatoriana dirigida por Héctor Azar en ENP 5 (UNAM, 1955)",
     "duracionMin": 25,
@@ -4507,7 +4559,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-054",
@@ -4522,7 +4575,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Comedia clásica novohispana montada para jóvenes universitarios",
     "sinopsis": "Comedia clásica novohispana montada para jóvenes universitarios. Repertorio estudiantil UNAM de finales del siglo XX en Dominio Público estricto",
     "duracionMin": 25,
@@ -4588,7 +4641,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-055",
@@ -4603,7 +4657,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Comedia clásica novohispana para público estudiantil",
     "sinopsis": "Comedia clásica novohispana para público estudiantil. Montada por la UNAM para público estudiantil en la década de los 90",
     "duracionMin": 25,
@@ -4669,7 +4723,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-056",
@@ -4684,7 +4739,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Comedia corta de enredos para teatro doméstico o títeres",
     "sinopsis": "Comedia corta de enredos para teatro doméstico o títeres. Farsa ligera de corta duración; rescata el repertorio cómico infantil del primer cuarto del siglo XX.",
     "duracionMin": 25,
@@ -4750,7 +4805,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-057",
@@ -4765,7 +4821,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Drama popular de aventuras adaptado en dos partes para teatrino infantil",
     "sinopsis": "Drama popular de aventuras adaptado en dos partes para teatrino infantil. Muestra cómo los grandes folletines de aventura llegaban a la infancia mexicana en formato portátil.",
     "duracionMin": 25,
@@ -4831,7 +4887,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-058",
@@ -4846,7 +4903,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Juguete cómico costumbrista sobre azar, codicia y humor familiar",
     "sinopsis": "Juguete cómico costumbrista sobre azar, codicia y humor familiar. Cuadernillo poco difundido de la Galería del Teatro Infantil; rescate rápido de biblioteca.",
     "duracionMin": 25,
@@ -4912,7 +4969,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-059",
@@ -4927,7 +4985,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Primera obra de teatro escolar laico del siglo XX con niños actores",
     "sinopsis": "Primera obra de teatro escolar laico del siglo XX con niños actores. Hito fundacional del teatro escolar laico mexicano del siglo XX con niños (Morelos, Leonardo Bravo); distinta del cuadro de marionetas Rosete Aranda.",
     "duracionMin": 25,
@@ -4993,7 +5051,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-060",
@@ -5008,7 +5067,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Sainete cómico de personajes populares en marionetas",
     "sinopsis": "Sainete cómico de personajes populares en marionetas. Joya de la comedia popular titiritera del repertorio Rosete Aranda",
     "duracionMin": 25,
@@ -5074,7 +5133,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-061",
@@ -5089,7 +5149,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Cuadro circense tradicional de marionetas de hilo",
     "sinopsis": "Cuadro circense tradicional de marionetas de hilo. Distinto de El circo de Marionetas de la Esquina (1976); clásico de la familia Rosete Aranda",
     "duracionMin": 25,
@@ -5155,7 +5215,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-062",
@@ -5170,7 +5231,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Cuadro espectacular cívico-musical para títeres",
     "sinopsis": "Cuadro espectacular cívico-musical para títeres. Excelente pieza para actos cívicos de septiembre con enfoque artístico y artesanal.",
     "duracionMin": 25,
@@ -5236,7 +5297,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-063",
@@ -5251,7 +5313,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Cuadro histórico patriótico para marionetas de hilo",
     "sinopsis": "Cuadro histórico patriótico para marionetas de hilo. Clásico cuadro histórico del repertorio Rosete Aranda independiente de la obra escolar del Teatro Arbeu.",
     "duracionMin": 25,
@@ -5317,7 +5379,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-064",
@@ -5332,7 +5395,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Cuadro costumbrista festivo de títeres de hilo; emblema del teatro popular mexicano",
     "sinopsis": "Cuadro costumbrista festivo de títeres de hilo; emblema del teatro popular mexicano. El cuadro de títeres más icónico de la historia escénica mexicana; enorme valor pedagógico sobre patrimonio inmaterial.",
     "duracionMin": 25,
@@ -5398,7 +5461,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-065",
@@ -5413,7 +5477,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Cuadro cómico popular mexicano para marionetas de hilo",
     "sinopsis": "Cuadro cómico popular mexicano para marionetas de hilo. Sainete popular de la familia Rosete Aranda libre de derechos",
     "duracionMin": 25,
@@ -5479,7 +5543,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-066",
@@ -5494,7 +5559,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Cuadro histórico-cívico de títeres sobre la Batalla de Puebla",
     "sinopsis": "Cuadro histórico-cívico de títeres sobre la Batalla de Puebla. Altísima utilidad para efemérides escolares del 5 de mayo en primarias y secundarias.",
     "duracionMin": 25,
@@ -5560,7 +5625,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-067",
@@ -5575,7 +5641,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Cuadro patriótico de Independencia para marionetas",
     "sinopsis": "Cuadro patriótico de Independencia para marionetas. Cuadro cívico escolar muy representativo del teatro de títeres mexicano",
     "duracionMin": 25,
@@ -5641,7 +5707,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-068",
@@ -5656,7 +5723,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Cuadro folclórico musical de marionetas mexicanas",
     "sinopsis": "Cuadro folclórico musical de marionetas mexicanas. Cuadro folclórico emblemático de los títeres de Huamantla",
     "duracionMin": 25,
@@ -5722,7 +5789,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-069",
@@ -5737,7 +5805,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Cuadro festivo tradicional de marionetas de hilo",
     "sinopsis": "Cuadro festivo tradicional de marionetas de hilo. Uno de los cuadros más famosos de la Compañía Rosete Aranda en todo el siglo XX",
     "duracionMin": 25,
@@ -5803,7 +5871,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-070",
@@ -5818,7 +5887,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Cuadro costumbrista mexicano de marionetas de hilo",
     "sinopsis": "Cuadro costumbrista mexicano de marionetas de hilo. Pieza clásica del repertorio histórico Rosete Aranda activa en el cambio de siglo",
     "duracionMin": 25,
@@ -5884,7 +5953,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-071",
@@ -5899,7 +5969,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Cuadro festivo tradicional para marionetas de hilo",
     "sinopsis": "Cuadro festivo tradicional para marionetas de hilo. Patrimonio titiritero mexicano del siglo XIX–XX",
     "duracionMin": 25,
@@ -5965,7 +6035,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-072",
@@ -5980,7 +6051,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Cuadro teatral tradicional de leyendas y cultura popular mexicana",
     "sinopsis": "Cuadro teatral tradicional de leyendas y cultura popular mexicana. Obra tradicional de interés para escuelas particulares confesionales y estudios de teatro popular.",
     "duracionMin": 25,
@@ -6046,7 +6117,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-073",
@@ -6061,7 +6133,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Estampa popular de canales y chinampas en marionetas",
     "sinopsis": "Estampa popular de canales y chinampas en marionetas. Retrato escénico del México tradicional en marionetas de hilo",
     "duracionMin": 25,
@@ -6127,7 +6199,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-074",
@@ -6142,7 +6215,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Teatro escolar laico y científico-positivista sobre exploración geográfica mexicana",
     "sinopsis": "Teatro escolar laico y científico-positivista sobre exploración geográfica mexicana. ¡JOYA PERDIDA EXCEPCIONAL! Segunda obra documentada de teatro escolar laico del siglo XX mexicano; 100% dominio público.",
     "duracionMin": 25,
@@ -6208,7 +6281,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-075",
@@ -6223,7 +6297,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Cantata escénica escolar monumental para 100 niños (música Manuel Berrueco y Serna)",
     "sinopsis": "Cantata escénica escolar monumental para 100 niños (música Manuel Berrueco y Serna). Hito fundacional del teatro escolar oficial en el Teatro Arbeu; rescate histórico de enorme valor para la tesina.",
     "duracionMin": 25,
@@ -6289,7 +6363,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-076",
@@ -6304,7 +6379,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Compendio de piezas escolares, monólogos y comedias breves en verso de maestra mexicana",
     "sinopsis": "Compendio de piezas escolares, monólogos y comedias breves en verso de maestra mexicana. ¡RESCATE FEMENINO CLAVE! Primera novelista mexicana y pedagoga; su libro infantil está 100% en DP pero no existe en PDF en internet.",
     "duracionMin": 25,
@@ -6370,7 +6445,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-077",
@@ -6385,7 +6461,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Pantomima infantil sobre hielo con niños patinadores y acróbatas",
     "sinopsis": "Pantomima infantil sobre hielo con niños patinadores y acróbatas. Obra de la compañía infantil de Ricardo Bell (†1911), en Dominio Público estricto",
     "duracionMin": 25,
@@ -6451,7 +6527,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-078",
@@ -6466,7 +6543,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Pantomima infantil circense con cascadas y payaso Pirrimplín",
     "sinopsis": "Pantomima infantil circense con cascadas y payaso Pirrimplín. Ricardo Bell (†1911) es DP estricto; hito del espectáculo infantil porfiriano en el Circo Orrin",
     "duracionMin": 25,
@@ -6532,7 +6609,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-079",
@@ -6547,7 +6625,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Pieza burlesca popular de títeres heredada de la tradición mexicana del siglo XIX",
     "sinopsis": "Pieza burlesca popular de títeres heredada de la tradición mexicana del siglo XIX. Rescata la línea popular femenina y artesanal desde Chole Aycardo hasta los Rosete Aranda.",
     "duracionMin": 25,
@@ -6613,7 +6691,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-080",
@@ -6628,7 +6707,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Sainete cómico popular de títeres con el arquetipo nacional Don Folías",
     "sinopsis": "Sainete cómico popular de títeres con el arquetipo nacional Don Folías. Joya del humor popular mexicano para infancias; complementa el cuadernillo de Vanegas Arroyo.",
     "duracionMin": 25,
@@ -6694,7 +6773,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-081",
@@ -6709,7 +6789,7 @@ export const PLAYS_DATA = [
     "enPortada": false,
     "textoEstado": "cola_dp",
     "etiquetaPublica": "Dominio público · En cola de carga",
-    "cover": "assets/covers/dp-cola.svg",
+    "cover": "assets/covers/dp-cola.jpg",
     "premisa": "Pastorela tradicional mexicana detonante del auge moderno",
     "sinopsis": "Pastorela tradicional mexicana detonante del auge moderno. Escenificada al aire libre por jóvenes del TEA (dir. Xavier Rojas), detonó el auge moderno de pastorelas",
     "duracionMin": 25,
@@ -6775,7 +6855,8 @@ export const PLAYS_DATA = [
       "estado": "Espacio reservado para videoensayo"
     },
     "opinionesJovenes": [],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Foro del Teatro Julio Castillo, Centro Cultural del Bosque (INBAL) · Wikimedia Commons (CC BY-SA 3.0)"
   },
   {
     "id": "TYA-357",
@@ -6790,7 +6871,7 @@ export const PLAYS_DATA = [
     "enPortada": true,
     "textoEstado": "protegido_solo_ficha",
     "etiquetaPublica": "Fase Beta · Ficha histórica (en bibliotecas)",
-    "cover": "assets/covers/beta-capa2.jpg",
+    "cover": "assets/covers/tya-357.jpg",
     "premisa": "Antología pionera del teatro infantil mexicano (1923). Protegida hasta 2064: consulta su ficha crítica y en qué 4 bibliotecas hallarla.",
     "sinopsis": "Colección fundacional de teatro escolar femenino en México publicada en 1923 y reeditada en 1935. Eje central de la investigación histórica de nuestra tesina: demuestra el paso de la pedagogía cívico-higiénica hacia el repertorio infantil escénico mexicano. Conforme al Art. 29 de la LFDA (100 años post mortem), al haber fallecido en 1964 su obra permanece protegida hasta 2064, por lo que La Luneta nunca publica ni descarga el texto completo sin autorización de herederos.",
     "duracionMin": 20,
@@ -6858,7 +6939,8 @@ export const PLAYS_DATA = [
     "opinionesJovenes": [
       "«Ojalá logren liberar los derechos para leerla completa»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Antigua Biblioteca Nacional de México (acervo patrimonial) · Foto: ProtoplasmaKid (CC BY-SA 4.0, Wikimedia Commons)"
   },
   {
     "id": "BETA-001",
@@ -6873,7 +6955,7 @@ export const PLAYS_DATA = [
     "enPortada": true,
     "textoEstado": "preview_beta",
     "etiquetaPublica": "Fase Beta · Vista previa + Microlicencia",
-    "cover": "assets/covers/beta-capa3.jpg",
+    "cover": "assets/covers/beta-001.jpg",
     "premisa": "Un diablo agotado de hacer siempre los mismos trucos pide permiso a nueve pastores adolescentes para cambiar el guion de la pastorela.",
     "sinopsis": "Obra de demostración claramente etiquetada como Fase Beta para probar en vivo cómo funcionarán las obras de dramaturgas y dramaturgos contemporáneos en La Luneta: vista previa protegida en pantalla, gráfica de peso por personaje, cotizador paso a paso en pesos mexicanos (con Edición Estudiante $25 y Edición Docente $100), Cotización PDF descargable y flujo de Orden de Compra (PO) con bloqueo legal hasta liquidar el pago.",
     "duracionMin": 15,
@@ -6954,6 +7036,7 @@ export const PLAYS_DATA = [
       "«Dura 15 minutos exactos y todos hablamos»",
       "«Nos hizo debatir el final»"
     ],
-    "bloqueoMusicaRevueltas": false
+    "bloqueoMusicaRevueltas": false,
+    "fotoCredito": "Montaje real de Pastorela mexicana (San Juan Achiutla, Oaxaca) · Foto: Eduardo Ruiz (CC BY-SA 4.0, Wikimedia Commons)"
   }
 ];

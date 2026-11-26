@@ -72,7 +72,9 @@ const filterState = {
 };
 
 // Elementos del DOM
+const siteHeader = document.getElementById("site-header");
 const views = {
+  home: document.getElementById("view-home"),
   catalog: document.getElementById("view-catalog"),
   detail: document.getElementById("view-detail"),
   reader: document.getElementById("view-reader"),
@@ -80,6 +82,10 @@ const views = {
   admin: document.getElementById("view-admin")
 };
 
+const homeSearchInput = document.getElementById("home-search-input");
+const homeSearchClearBtn = document.getElementById("home-search-clear-btn");
+const homeSearchForm = document.getElementById("home-search-form");
+const homeSuggestionsBox = document.getElementById("home-search-suggestions");
 const searchInput = document.getElementById("search-input");
 const searchClearBtn = document.getElementById("search-clear-btn");
 const searchForm = document.getElementById("search-form");
@@ -106,9 +112,12 @@ function notify(message) {
 }
 
 function updateAccountDot() {
-  const dot = document.getElementById("account-dot");
   const count = store.favorites.length + store.orders.length + store.quotes.length;
-  dot.hidden = !(store.user || count > 0);
+  const hide = !(store.user || count > 0);
+  const dot = document.getElementById("account-dot");
+  const homeDot = document.getElementById("home-account-dot");
+  if (dot) dot.hidden = hide;
+  if (homeDot) homeDot.hidden = hide;
 }
 
 function showView(name) {
@@ -116,6 +125,7 @@ function showView(name) {
   Object.entries(views).forEach(([k, sec]) => {
     sec.hidden = k !== name;
   });
+  siteHeader.hidden = name === "home";
   siteFooter.hidden = name === "reader";
   window.scrollTo({ top: 0, behavior: "instant" });
 }
@@ -161,60 +171,113 @@ function buildSuggestions(q) {
   return out;
 }
 
-function renderSuggestions() {
-  const list = buildSuggestions(searchInput.value);
-  suggestionsBox.innerHTML = list.map((s) => `
+function renderSuggestionsIn(inputEl, clearBtnEl, boxEl) {
+  const list = buildSuggestions(inputEl.value);
+  boxEl.innerHTML = list.map((s) => `
     <button type="button" class="suggestion-item" role="option" data-val="${escapeHtml(s.text)}" data-play="${s.playId || ""}">
       <span>${escapeHtml(s.text)}</span>
       <span class="suggestion-hint">${escapeHtml(s.hint)}</span>
     </button>
   `).join("");
-  suggestionsBox.hidden = false;
-  searchInput.setAttribute("aria-expanded", "true");
+  boxEl.hidden = false;
+  inputEl.setAttribute("aria-expanded", "true");
 
-  suggestionsBox.querySelectorAll(".suggestion-item").forEach((btn) => {
+  boxEl.querySelectorAll(".suggestion-item").forEach((btn) => {
     btn.addEventListener("mousedown", (e) => {
       e.preventDefault();
       if (btn.dataset.play) {
-        hideSuggestions();
+        hideAllSuggestions();
         navigateToPlay(btn.dataset.play);
       } else {
-        searchInput.value = btn.dataset.val;
-        searchClearBtn.hidden = !searchInput.value;
+        syncSearchInputs(btn.dataset.val);
         filterState.query = btn.dataset.val;
-        hideSuggestions();
+        hideAllSuggestions();
         goCatalogAndRender();
       }
     });
   });
 }
 
-function hideSuggestions() {
-  suggestionsBox.hidden = true;
-  searchInput.setAttribute("aria-expanded", "false");
+function syncSearchInputs(val) {
+  searchInput.value = val;
+  homeSearchInput.value = val;
+  searchClearBtn.hidden = !val;
+  homeSearchClearBtn.hidden = !val;
 }
 
-searchInput.addEventListener("focus", renderSuggestions);
+function hideAllSuggestions() {
+  suggestionsBox.hidden = true;
+  homeSuggestionsBox.hidden = true;
+  searchInput.setAttribute("aria-expanded", "false");
+  homeSearchInput.setAttribute("aria-expanded", "false");
+}
+
+// Buscador de la barra superior (resultados / fichas)
+searchInput.addEventListener("focus", () => renderSuggestionsIn(searchInput, searchClearBtn, suggestionsBox));
 searchInput.addEventListener("input", () => {
-  searchClearBtn.hidden = !searchInput.value;
-  filterState.query = searchInput.value;
-  renderSuggestions();
+  const v = searchInput.value;
+  homeSearchInput.value = v;
+  searchClearBtn.hidden = !v;
+  homeSearchClearBtn.hidden = !v;
+  filterState.query = v;
+  renderSuggestionsIn(searchInput, searchClearBtn, suggestionsBox);
   if (!views.catalog.hidden) renderCatalog();
 });
-searchInput.addEventListener("blur", () => setTimeout(hideSuggestions, 160));
+searchInput.addEventListener("blur", () => setTimeout(hideAllSuggestions, 160));
 searchClearBtn.addEventListener("click", () => {
-  searchInput.value = "";
-  searchClearBtn.hidden = true;
+  syncSearchInputs("");
   filterState.query = "";
-  hideSuggestions();
+  hideAllSuggestions();
   goCatalogAndRender();
   searchInput.focus();
 });
 searchForm.addEventListener("submit", (e) => {
   e.preventDefault();
   filterState.query = searchInput.value.trim();
-  hideSuggestions();
+  syncSearchInputs(filterState.query);
+  hideAllSuggestions();
   goCatalogAndRender();
+});
+
+// Buscador protagonista de la portada minimalista estilo Google
+homeSearchInput.addEventListener("focus", () => renderSuggestionsIn(homeSearchInput, homeSearchClearBtn, homeSuggestionsBox));
+homeSearchInput.addEventListener("input", () => {
+  const v = homeSearchInput.value;
+  searchInput.value = v;
+  homeSearchClearBtn.hidden = !v;
+  searchClearBtn.hidden = !v;
+  filterState.query = v;
+  renderSuggestionsIn(homeSearchInput, homeSearchClearBtn, homeSuggestionsBox);
+});
+homeSearchInput.addEventListener("blur", () => setTimeout(hideAllSuggestions, 160));
+homeSearchClearBtn.addEventListener("click", () => {
+  syncSearchInputs("");
+  filterState.query = "";
+  hideAllSuggestions();
+  homeSearchInput.focus();
+});
+homeSearchForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  filterState.query = homeSearchInput.value.trim();
+  syncSearchInputs(filterState.query);
+  hideAllSuggestions();
+  goCatalogAndRender();
+});
+document.getElementById("home-btn-search").addEventListener("click", () => {
+  filterState.query = homeSearchInput.value.trim();
+  syncSearchInputs(filterState.query);
+  hideAllSuggestions();
+  goCatalogAndRender();
+});
+document.getElementById("home-btn-explore").addEventListener("click", () => {
+  resetAllFilters(false);
+  goCatalogAndRender();
+});
+document.getElementById("btn-home-account").addEventListener("click", () => {
+  lastHandledHash = "#cuenta";
+  if (window.location.hash !== "#cuenta") window.location.hash = "#cuenta";
+  showView("account");
+  renderAccountView();
 });
 
 // =========================================================================
@@ -422,7 +485,7 @@ function renderCatalog() {
   });
 }
 
-function resetAllFilters() {
+function resetAllFilters(shouldRender = true) {
   filterState.query = "";
   filterState.tab = "todas";
   filterState.cast = "";
@@ -435,15 +498,14 @@ function resetAllFilters() {
   filterState.readableOnly = false;
   filterState.includeBeta = true;
   filterState.includeQueue = false;
-  searchInput.value = "";
-  searchClearBtn.hidden = true;
+  syncSearchInputs("");
   document.querySelectorAll("#quick-tabs .quick-tab").forEach((t) => {
     const active = t.dataset.tab === "todas";
     t.classList.toggle("is-active", active);
     t.setAttribute("aria-selected", String(active));
   });
   syncDrawerInputs();
-  renderCatalog();
+  if (shouldRender) renderCatalog();
 }
 
 // =========================================================================
@@ -641,8 +703,11 @@ function renderPlayDetail(playId) {
             </div>
           </div>
           <figure class="detail-poster-card" style="margin:0;">
-            <img src="${escapeHtml(play.cover)}" alt="Cartel ilustrativo de ${escapeHtml(play.titulo)}" />
-            <figcaption class="detail-poster-caption">${escapeHtml(play.nivelEducativo)} · ${escapeHtml(play.anio)}</figcaption>
+            <img src="${escapeHtml(play.cover)}" alt="Fotografía de montaje o archivo histórico de ${escapeHtml(play.titulo)}" />
+            <figcaption class="detail-poster-caption">
+              <div>${escapeHtml(play.nivelEducativo)} · ${escapeHtml(play.anio)}</div>
+              ${play.fotoCredito ? `<div style="margin-top:4px;font-size:0.76rem;color:var(--ink-subtle);">Imagen real: ${escapeHtml(play.fotoCredito)}</div>` : ""}
+            </figcaption>
           </figure>
         </div>
 
@@ -1299,10 +1364,18 @@ function handleCreateAccount(userObj) {
 
 let lastHandledHash = "";
 
-function goCatalogAndRender() {
+function goHomeView() {
   lastHandledHash = "#inicio";
   if (window.location.hash !== "#inicio" && window.location.hash !== "") {
     window.location.hash = "#inicio";
+  }
+  showView("home");
+}
+
+function goCatalogAndRender() {
+  lastHandledHash = "#explorar";
+  if (window.location.hash !== "#explorar") {
+    window.location.hash = "#explorar";
   }
   showView("catalog");
   renderCatalog();
@@ -1329,14 +1402,16 @@ function handleRoute(force = false) {
     const id = hash.replace("#obra/", "");
     showView("detail");
     renderPlayDetail(id);
+  } else if (hash === "#explorar") {
+    showView("catalog");
+    renderCatalog();
   } else if (hash === "#cuenta") {
     showView("account");
     renderAccountView();
   } else if (hash === "#editorial") {
     openAdminView();
   } else {
-    showView("catalog");
-    renderCatalog();
+    showView("home");
   }
 }
 
@@ -1352,8 +1427,8 @@ function trackYoutubeRef() {
 
 document.getElementById("logo-home-link").addEventListener("click", (e) => {
   e.preventDefault();
-  resetAllFilters();
-  goCatalogAndRender();
+  resetAllFilters(false);
+  goHomeView();
 });
 document.getElementById("btn-my-account").addEventListener("click", () => {
   lastHandledHash = "#cuenta";
